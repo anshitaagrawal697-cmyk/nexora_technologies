@@ -1,0 +1,66 @@
+/* Navbar */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.7); /* glass effect */
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 8%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+/* Link style */
+.nav-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+  transition: 0.3s;
+}
+
+/* Hover */
+.nav-link:hover {
+  color: #06b6d4;
+}
+
+/* Active (Home) */
+.nav-link.active {
+  color: #06b6d4;
+  border-bottom: 2px solid #06b6d4;
+  padding-bottom: 4px;
+}
+
+/* Button */
+.btn-start {
+  background: #06b6d4;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-start:hover {
+  background: #2563eb;
+}

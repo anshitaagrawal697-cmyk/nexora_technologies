@@ -1,0 +1,122 @@
+.footer {
+  background: #0f172a;
+  color: #fff;
+  padding-top: 60px;
+  position: relative;
+}
+
+/* TOP */
+.footer-top {
+  padding-bottom: 40px;
+}
+
+/* LOGO */
+.logo {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* DESCRIPTION */
+.footer-desc {
+  color: #94a3b8;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  color: #94a3b8;
+  transition: 0.3s;
+}
+
+.social-icons svg:hover {
+  color: #454fe8;
+}
+
+/* HEADINGS */
+.footer h5 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* LIST */
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  color: #94a3b8;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer ul li:hover {
+  color: #fff;
+}
+
+/* CONTACT */
+.footer p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.footer p svg {
+  margin-right: 8px;
+  color: #2d63ea;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 20px 0;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+/* SCROLL BUTTON */
+.scroll-top {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #06b6d4;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.scroll-top:hover {
+  background: #0891b2;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* dark bg pe logo white karne ke liye */
+.footer-logo img {
+  filter: brightness(0) invert(1);
+}
